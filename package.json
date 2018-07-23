@@ -1,0 +1,17 @@
+{
+    "name": "@arted/audio",
+    "version": "0.0.101",
+    "description": "web audio api",
+    "main": "index.js",
+    "scripts": {
+        "build": "drap lib build --transform",
+        "release": "yarn build && cd build && yarn publish"
+    },
+    "repository": "git@github.com:edonet/audio.git",
+    "author": "edonet <edonet@163.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@arted/animate": "^0.0.101",
+        "@arted/utils": "^0.0.114"
+    }
+}
