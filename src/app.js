@@ -31,7 +31,7 @@ export default class App extends Component {
         super(...args);
 
         // 定义属性
-        this.$$recorder = new Recorder({ channelCount: 1 });
+        this.$$recorder = new Recorder();
 
         // 创建动画
         this.$$recorderAnim = null;
